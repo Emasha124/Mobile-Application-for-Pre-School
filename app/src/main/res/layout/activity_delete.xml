@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p8"
+    tools:context=".DeleteActivity">
+
+    <Button
+        android:id="@+id/backbutton3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/lavender"
+        android:text="@string/back"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_student"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-10dp"/>
+
+        <EditText
+            android:id="@+id/deleteName"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Student name"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="75dp"
+            android:backgroundTint="@color/lavender"
+            android:text="@string/delete"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</LinearLayout>

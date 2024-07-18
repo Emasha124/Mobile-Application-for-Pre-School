@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="-9dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/p9"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/backbutton1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="130dp"
+            android:width="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Back" />
+
+        <TextView
+            android:layout_marginTop="-250px"
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_student_details"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadName"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="40dp"
+            android:padding="16dp"
+            android:hint="@string/enter_student_name"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadGuardian"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="25dp"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/enter_guardian_s_name"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadPhone"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="25dp"
+            android:padding="16dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/enter_phone_number"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/save"
+            android:id="@+id/saveButton"
+            android:textSize="18sp"
+            android:width="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/lavender"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+</LinearLayout>

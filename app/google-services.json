@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777786364267",
+    "project_id": "preschoolmobileapp",
+    "storage_bucket": "preschoolmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777786364267:android:8ae7b85259b394814ffc2e",
+        "android_client_info": {
+          "package_name": "com.example.preschoolmobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHVhYwo5AmPGLsO2cMMycKV3Pf2saKnDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

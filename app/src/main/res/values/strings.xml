@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PreSchoolMobileApplication</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="Email">Email</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_signup">Not yet registered? Signup</string>
+    <string name="add_new_student">Add New student</string>
+    <string name="welcome">Welcome !</string>
+    <string name="back">Back</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="save">Save</string>
+    <string name="enter_guardian_s_name">Enter Guardian\'s Name</string>
+    <string name="enter_student_name">Enter student name</string>
+    <string name="enter_student_details">Enter Student Details</string>
+    <string name="update_student_details">Update Student Details</string>
+    <string name="update">Update</string>
+    <string name="delete_student">Delete Student</string>
+    <string name="delete">Delete</string>
+</resources>
